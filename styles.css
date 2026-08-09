@@ -191,6 +191,7 @@ p { color: var(--ink-soft); margin: 0 0 1em; }
 .hero-photo img {
   display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 1366 / 2048;
   object-fit: cover;
   border-radius: var(--radius);
@@ -217,6 +218,7 @@ p { color: var(--ink-soft); margin: 0 0 1em; }
 .about-photo img {
   display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 2048 / 1366;
   object-fit: cover;
   border-radius: var(--radius);
@@ -235,6 +237,7 @@ p { color: var(--ink-soft); margin: 0 0 1em; }
 .process-strip img {
   display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 1152 / 2048;
   object-fit: cover;
   border-radius: var(--radius);
