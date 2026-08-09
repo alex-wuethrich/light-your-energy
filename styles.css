@@ -289,13 +289,11 @@ p { color: var(--ink-soft); margin: 0 0 1em; }
 .geschenke-photos img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   border-radius: var(--radius);
   box-shadow: 0 20px 45px -20px rgba(58, 42, 46, 0.3);
 }
-.geschenke-photos img:first-child { aspect-ratio: 1152 / 2048; }
-.geschenke-photos img:last-child { aspect-ratio: 1 / 1; align-self: center; }
+.geschenke-photos img:last-child { align-self: center; }
 
 /* Contact */
 .contact-inner { text-align: center; max-width: 600px; margin: 0 auto; }
